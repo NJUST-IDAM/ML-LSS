@@ -26,7 +26,7 @@ function [model] = ML_LSS( X, Y, optmParameter)
     
     iter    = 1;
     oldloss = 0;
-    %保存当前时间
+    
     tic;
     Lip = sqrt(2*(norm(XTX)^2 + norm(lam1*2*XLX)^2));
     bk = 1;
