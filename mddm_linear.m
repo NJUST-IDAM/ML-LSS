@@ -1,7 +1,7 @@
 function [P lambda] = mddm_linear(X, L, projtype, mu, dim_para)
 [D N] = size(X);
 
-tmpL = L - repmat(mean(L,1),N,1);       %Æ½ÆÌ¾ØÕó
+tmpL = L - repmat(mean(L,1),N,1);      
 HLH = tmpL - repmat(mean(tmpL,2),1,N);
 
 S = X * HLH * X';
