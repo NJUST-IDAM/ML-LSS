@@ -7,7 +7,6 @@ dataset_name = 'yeast';
 cd('datasets');
     eval(['load ', dataset_name]);
 cd('..');
-%²ÎÊıÉèÖÃ
  opt_params.lam1 = 0.002;
  opt_params.lam2 = 0.002;
  opt_params.lam3 =64;
